@@ -1,0 +1,72 @@
+#locationData {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#locationData div {
+    margin-right: 300px;
+    margin-bottom: 50px;
+    
+}
+span{
+    color: white;
+}
+
+#mapContainer{
+    /* border: 2px solid red; */
+    padding: 0px 35px 35px 35px;
+    background-color: #575A85;
+}
+
+
+
+
+#postOfficeList {
+    margin-top: 50px;
+}
+
+#searchBox {
+    margin-top: 10px;
+    background-color: black;
+    color: #B8BCCC;
+    border: 2px solid #575A85;
+}
+
+#postOfficeData{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    
+    
+}
+
+.postOfficeInfo {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #575A85;
+}
+
+.postOfficeInfo p {
+    margin: 0;
+    padding: 20px;
+    font-weight: bold;
+}
+#searchBox{
+    margin-bottom: 50px;
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: x-large;
+}
+body{
+    margin: 20px;
+    font-size: x-large;
+    background-color: black;
+    color: #B8BCCC;
+}
+.bold-text {
+    font-weight: bold;
+}
